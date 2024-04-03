@@ -1,31 +1,23 @@
-// Write your solution in this file!
- var customername = 'bob';
+
+ var customerName = 'bob';
  
 
  function upperCaseCustomerName () {
-    customerName = customerName.toUpperCase ();
+    return customerName = customerName.toUpperCase ();
  }
 
  function setBestCustomer () {
-    bestCustomer = 'not bob';
+    return bestCustomer = 'not bob';
  }
 
  function overwriteBestCustomer () {
-    bestCustomer = 'maybe bob';
+    return bestCustomer = 'maybe bob';
  }
 
 
- const leastFavoriteCustomer = 'someone';
+ const leastFavoriteCustomer = 'Kelly';
 
  function changeLeastFavoriteCustomer () {
-    leastFavoriteCustomer = 'someone else';
+    return leastFavoriteCustomer = 'still bob';
  }
 
- module.exports = {
-    customerName,
-    upperCaseCustomerName,
-    setBestCustomer,
-    overwriteBestCustomer,
-    leastFavoriteCustomer,
-    changeLeastFavoriteCustomer,
- }
